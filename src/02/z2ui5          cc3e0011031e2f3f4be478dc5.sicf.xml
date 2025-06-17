@@ -5,7 +5,7 @@
    <URL>/sap/bc/bsp/sap/sct/qp_ui_frontend/</URL>
    <ICFSERVICE>
     <ICF_NAME>QP_UI_FRONTEND</ICF_NAME>
-    <ORIG_NAME>z2ui5</ORIG_NAME>
+    <ORIG_NAME>qp_ui_frontend</ORIG_NAME>
    </ICFSERVICE>
    <ICFDOCU>
     <ICF_NAME>QP_UI_FRONTEND</ICF_NAME>
