@@ -2,7 +2,7 @@
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
-   <URL>/sap/bc/bsp/sap/sct/qp_ui_flp</URL>
+   <URL>/sap/bc/bsp/sct/qp_ui_flp</URL>
    <ICFSERVICE>
     <ICF_NAME>QP_UI_FLP</ICF_NAME>
     <ORIG_NAME>qp_ui_flp</ORIG_NAME>
