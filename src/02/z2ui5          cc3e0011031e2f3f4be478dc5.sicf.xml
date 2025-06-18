@@ -2,13 +2,13 @@
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
-   <URL>/sap/bc/bsp/sap/sct/qp_ui_frontend/</URL>
+   <URL>/sap/bc/bsp/sap/z2ui5/</URL>
    <ICFSERVICE>
-    <ICF_NAME>QP_UI_FRONTEND</ICF_NAME>
-    <ORIG_NAME>qp_ui_frontend</ORIG_NAME>
+    <ICF_NAME>Z2UI5</ICF_NAME>
+    <ORIG_NAME>z2ui5</ORIG_NAME>
    </ICFSERVICE>
    <ICFDOCU>
-    <ICF_NAME>QP_UI_FRONTEND</ICF_NAME>
+    <ICF_NAME>Z2UI5</ICF_NAME>
     <ICF_LANGU>E</ICF_LANGU>
     <ICF_DOCU>abap2UI5 - Frontend</ICF_DOCU>
    </ICFDOCU>
