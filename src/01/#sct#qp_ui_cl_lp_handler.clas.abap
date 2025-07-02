@@ -17,7 +17,7 @@ CLASS /SCT/QP_UI_CL_LP_HANDLER IMPLEMENTATION.
 
   METHOD if_http_extension~handle_request.
 
-    z2ui5_cl_http_handler=>run( server ).
+    /sct/au5_cl_http_handler=>run( server ).
 
   ENDMETHOD.
 
