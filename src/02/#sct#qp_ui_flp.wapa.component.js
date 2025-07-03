@@ -56,6 +56,9 @@ sap.ui.define(["sap/ui/core/UIComponent", "z2ui5/model/models", "z2ui5/cc/Server
                 }
             });
 
+            // Custom Funktion um Warnung auszugeben beim schließen des Tabs
+            window.addEventListener("beforeunload", this.handleBeforeUnload.bind(this));
+
             window.addEventListener("popstate", (event) => {
                 delete event?.state?.response?.PARAMS?.SET_PUSH_STATE;
                 delete event?.state?.response?.PARAMS?.SET_APP_STATE_ACTIVE;
@@ -79,6 +82,11 @@ sap.ui.define(["sap/ui/core/UIComponent", "z2ui5/model/models", "z2ui5/cc/Server
         __pagehide: function () {
             window.removeEventListener("__pagehide", this.__pagehide.bind(this));
             this.destroy();
+        },
+        // Custom Funktion um Warnung auszugeben beim schließen des Tabs
+        handleBeforeUnload: function (event) {
+            event.preventDefault();
+            event.returnValue = '';
         },
 
         exit: function () {
